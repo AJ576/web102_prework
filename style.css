@@ -22,7 +22,6 @@ body {
 
 .stats-container  {
     display: flex;
-<<<<<<< HEAD
     align-items:center ;
     justify-content: space-around;
     cursor: pointer;
@@ -31,13 +30,6 @@ body {
 .stats-container .stats-card:hover {
     box-shadow:0 0 30px lightblue
 }
-=======
-    justify-content: space around;
-}
-.stats-container: hover{
-    box-shadow: 0 0 30px rgb(68,85,90);
-}
->>>>>>> ad630a16c99c1453697a227fba14127bcf100f32
 .stats-card {
     background-color: #a8b0bc;
     border-radius: 7px;
@@ -88,13 +80,10 @@ button {
     padding: 2%;
     margin: 5%;
     border-radius: 7px;
-<<<<<<< HEAD
     font-size: medium   ;
     cursor: pointer; 
 }
 button:active { 
     transform: scale(1.0);  
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
-=======
->>>>>>> ad630a16c99c1453697a227fba14127bcf100f32
 }
