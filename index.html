@@ -11,6 +11,16 @@
     <div class="header">
         <img id="tentacles" src="assets/tentacles.png">
         <h1 class="header-text">Sea Monster Crowdfunding</h1>
+        <!--A small change to make a very basic nav bar-->
+        <div id = "NavBar">
+            <datalist id="suggestions">
+                <option>Stats</option>
+                <option>Our Game</option>
+            </datalist>
+            <input  autoComplete="on" list="suggestions"  id="input"/> 
+            <button id="go">Go!</button>
+        </div>
+        
     </div>
 
     <!-- background info about company -->
@@ -21,7 +31,7 @@
 
     <!-- top games & other interesting stats -->
     <h2>Stats</h2>
-    <div class="stats-container">
+    <div class="stats-container" id = "Stats">
         <div class="stats-card">
             <h3>Individual Contributions</h3>
             <p id="num-contributions">

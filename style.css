@@ -14,15 +14,22 @@ body {
     background-color: lightblue;
     padding: 1%;
     align-items: center;
+    justify-content: space-around;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
 }
 
-.stats-container {
+.stats-container  {
     display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    cursor: pointer;
 }
 
+.stats-container .stats-card:hover {
+    box-shadow:0 0 30px lightblue
+}
 .stats-card {
     background-color: #a8b0bc;
     border-radius: 7px;
@@ -65,11 +72,18 @@ body {
 #button-container {
     text-align: center;
 }
-
+/*some changes here to make buttons feel more interactive
+The lack of interaction with actual buttons felt weird to me*/
 button {
     font-family: 'Cabin';
-    border: none;
-    padding: 1%;
-    margin: 1%;
+    border:none;
+    padding: 2%;
+    margin: 5%;
     border-radius: 7px;
+    font-size: medium   ;
+    cursor: pointer; 
+}
+button:active { 
+    transform: scale(1.0);  
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
 }
